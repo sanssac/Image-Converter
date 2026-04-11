@@ -8,7 +8,7 @@ A simple desktop app to convert images between JPEG and PNG formats, built with 
 - Image preview before conversion
 - Modern dark UI
 
-## 🛠️ Built With
+## 🛠️ Built With xxx
 - [Python](https://www.python.org/)
 - [Pillow](https://pillow.readthedocs.io/) — image processing
 - [CustomTkinter](https://github.com/TomSchimansky/CustomTkinter) — modern GUI
