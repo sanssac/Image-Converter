@@ -2,6 +2,8 @@
 
 A simple desktop app to convert images between JPEG and PNG formats, built with Python.
 
+Deployed using streamlit : https://jpegtopng.streamlit.app/
+
 ## ✨ Features
 - Convert JPEG → PNG
 - Convert PNG → JPEG

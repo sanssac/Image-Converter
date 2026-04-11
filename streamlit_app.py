@@ -52,3 +52,42 @@ if uploaded:
             st.error(f"❌ Conversion failed: {result}")
 
         os.remove(tmp_path)
+st.divider()
+
+st.markdown("""
+## 📌 About Image Formats
+
+### 🔹 PNG (Portable Network Graphics)
+PNG is a **lossless format**, meaning it keeps full image quality without losing any data.  
+It also supports **transparency**, making it ideal for logos, UI elements, and graphics.
+
+---
+
+### 🔹 JPEG (JPG - Joint Photographic Experts Group)
+JPEG is a **lossy format**, which reduces file size by slightly compressing the image.  
+It is best suited for **photographs and web images**.
+
+---
+
+## ⚖️ PNG vs JPEG
+
+| Feature        | PNG ✅              | JPEG ✅            |
+|---------------|-------------------|-------------------|
+| Compression   | Lossless           | Lossy             |
+| Quality       | High               | Slightly Reduced  |
+| File Size     | Larger             | Smaller           |
+| Transparency  | Yes                | No                |
+
+---
+
+## 🚀 How This App Works
+
+1. 📤 Upload your image (JPG, JPEG, or PNG)  
+2. ⚙️ The app processes it using Python and Pillow  
+3. 🔄 Converts it into your selected format  
+4. 📥 Download the converted image instantly  
+
+---
+
+✨ Built for fast, simple, and high-quality image conversion.
+""")
